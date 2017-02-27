@@ -1,5 +1,8 @@
 # List of Exception classes for ricecake
 
+# import ricecooker exceptions
+from ricecooker.exceptions import FileNotFoundException, UnknownFileTypeError
+
 class InvalidConfigFile(Exception):
     """ InvalidConfigFile: raised when config ini file contains too few or too many entries """
     def __init__(self,*args,**kwargs):
