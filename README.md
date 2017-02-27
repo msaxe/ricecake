@@ -14,5 +14,5 @@ python setup.py bdist_wheel
 
 ## Run ricecake
 ```
-python ricecake --token=<token> <folder_path>
+ricecake --token=<token> <folder_path>
 ```
